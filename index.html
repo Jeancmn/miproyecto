@@ -8,10 +8,12 @@
         body {
             background-color: gray; /* Cambia el color de fondo a gris */
             font-family: Arial, sans-serif; /* Cambia la fuente a Arial o una fuente sans-serif */
-        }
-         /* Centrar el texto en el centro horizontal */
-         .center-text {
-            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Asegura que la altura mínima sea al menos el tamaño de la pantalla */
+            margin: 0; /* Elimina el margen predeterminado del cuerpo */
         }
     </style>
 </head>
